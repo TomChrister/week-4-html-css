@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-size: 2rem;
+
+}
+
+.parent {
+    background-color: blue;
+    padding: .25rem;
+    position: relative;
+}
+
+.child1 {
+    background-color: red;
+    padding: .25rem;
+    right: 30px;
+    bottom: 40px;
+}
+
+.child2 {
+    background-color: green;
+    padding: .25rem;
+}
+
+.child3 {
+    background-color: purple;
+    padding: .25rem;
+    top: 0;
+    position: sticky;
+}
