@@ -4,17 +4,22 @@
 
 }
 
+body {
+    height: 100vh;
+}
+
 .parent {
     background-color: blue;
     padding: .25rem;
-    position: relative;
 }
 
 .child1 {
     background-color: red;
     padding: .25rem;
-    right: 30px;
-    bottom: 40px;
+    position: relative;
+    top: 10px;
+/*z-index means it went back in the parent*/
+    z-index: 20;
 }
 
 .child2 {
@@ -25,6 +30,7 @@
 .child3 {
     background-color: purple;
     padding: .25rem;
-    top: 0;
-    position: sticky;
+    position: relative;
+    z-index: 10;
+    bottom: 200px;
 }
